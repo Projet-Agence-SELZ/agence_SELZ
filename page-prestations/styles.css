@@ -1,4 +1,4 @@
-.logo_accueil{
+header .logo_accueil{
     max-width: 15%;
     max-height: 15%;
     display: block;
@@ -6,14 +6,14 @@
     margin-right: auto;
     text-align: center;
 }
-.nav {
+header .nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
     padding-inline-start: 20px;
   }
-  .nav li {
+  header .nav li {
     display: inline-block;
     font-size: 20px;
     background-color: green;
@@ -22,7 +22,7 @@
     margin: 1em 1.5em;
     padding: 0em 1em;
   }
-  .nav a{
+  header .nav a{
       color: white;
       text-decoration: none;
   }
