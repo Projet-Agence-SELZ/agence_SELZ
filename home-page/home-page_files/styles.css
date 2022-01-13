@@ -28,27 +28,12 @@ header .nav {
   }
 
   /* Style du main */
-
-  h2
-{ color: green;}
-
   .img_left {
   float: left;
  margin: 0 15px 15px 0;
 
     max-width: 100%;
     height: auto;
-  }
-.mea { 
-   border: 1px solid #333;
-}
-  .shadowbox {
-    width: 40%;
-    border: 1px solid #333;
-    box-shadow: 8px 8px 5px #444;
-    padding: 20px 20px;
-    text-align: justify;
-    
   }
 
   /* Style du footer */
