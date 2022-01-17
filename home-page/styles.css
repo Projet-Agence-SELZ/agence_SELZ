@@ -29,8 +29,16 @@ header .nav {
 
   /* Style du main */
 
+  h1
+  {word-spacing: 0.5em;}
+ .SELZ
+ { letter-spacing: 0.5em; }
+
   h2
 { color: green;}
+
+.display
+{ display: flex ;}
 
   .img_left {
   float: left;
@@ -48,8 +56,11 @@ header .nav {
     box-shadow: 8px 8px 5px #444;
     padding: 20px 20px;
     text-align: justify;
+    margin-right: auto ;
     
   }
+
+  /* align-items: flex-end : pour mettre en bas de l'écran mon lien vers le haut */
 
   /* Style du footer */
 footer .container{
