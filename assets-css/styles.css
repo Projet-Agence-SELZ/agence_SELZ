@@ -28,9 +28,21 @@ header .nav {
   }
 
   /* Style du main */
+@font-face {
+    font-family: 'LiberationSerifRegular';
+    src: url('LiberationSerif-Regular.ttf');
 
+    font-family: 'LiberationSerifBold';
+    src: url('LiberationSerif-Bold.ttf');
+
+}
   h1
   {word-spacing: 0.5em;}
+
+  p
+  {font-family: LiberationSerifRegular;
+  font-size:  1.5em;
+  }
  .SELZ
  { letter-spacing: 0.5em; }
 
@@ -48,7 +60,7 @@ header .nav {
     height: auto;
   }
 .mea { 
-   border: 1px solid #333;
+   /* border: 1px solid #333;*/
 }
   .shadowbox {
     width: 40%;
@@ -56,6 +68,7 @@ header .nav {
     box-shadow: 8px 8px 5px #444;
     padding: 20px 20px;
     text-align: justify;
+    
     margin-right: auto ;
     
   }
