@@ -14,49 +14,25 @@ header .logo_accueil{
 header .nav {
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
-    /* padding-inline-end: 0px; */
-
   }
   
   header .nav li {
     display: inline-block;
     background-color:rgb(3, 202, 3);
     border-radius: 30px;
-    /* min-width: 15%; */
+    width: 15%;
     height: auto;
     margin: 1em 1em;
     padding: 0em 1em;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
   }
   header .nav a{
       color: white;
       text-decoration: none;
   }
-footer .container{
-    border: solid black;
-    text-align: center;
-    width: 100%;
-    margin: 1em 0em;
-    padding: 1em;
-    display: flex;
-    vertical-align: middle;
-}
-footer,div{
-    display: inline-block;
-    margin: 0.7em;
-}
-footer div>a, footer div>span {
-    display: block;
-    padding: 0em 8em;
-}
-footer div span{
-    margin-bottom: 1em;
-    text-align: center;
-}
