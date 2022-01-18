@@ -27,6 +27,15 @@ header .nav {
       text-decoration: none;
   }
 
+  #gototop
+{
+position: fixed;
+bottom : 40px;
+right: -40px;
+opacity: 0.5;
+}
+
+
   /* Style du main */
 @font-face {
     font-family: 'LiberationSerifRegular';
@@ -49,30 +58,22 @@ header .nav {
   h2
 { color: green;}
 
-.display
-{ display: flex ;}
 
-  .img_left {
-  float: left;
- margin: 55px 15px 0;
-
-    max-width: 100%;
-    height: auto;
-    X: 55px
-W: 850px
-H: 510px
+  .img_texte {
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
   }
-.mea { 
-   border: 1px solid #333;
-}
+
+
   .shadowbox {
     width: 40%;
     border: 1px solid #333;
     box-shadow: 8px 8px 5px #444;
     padding: 20px 20px;
     text-align: justify;
-    
-    margin-right: auto ;
+   
     
   }
 
