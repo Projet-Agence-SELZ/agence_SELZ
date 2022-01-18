@@ -30,10 +30,10 @@ header .nav {
   /* Style du main */
 @font-face {
     font-family: 'LiberationSerifRegular';
-    src: url('LiberationSerif-Regular.ttf');
+    src: url('/assets-css/Font/LiberationSerif-Regular.ttf');
 
     font-family: 'LiberationSerifBold';
-    src: url('LiberationSerif-Bold.ttf');
+    src: url('/assets-css/Font/LiberationSerif-Bold.ttf');
 
 }
   h1
@@ -54,13 +54,16 @@ header .nav {
 
   .img_left {
   float: left;
- margin: 0 15px 15px 0;
+ margin: 55px 15px 0;
 
     max-width: 100%;
     height: auto;
+    X: 55px
+W: 850px
+H: 510px
   }
 .mea { 
-   /* border: 1px solid #333;*/
+   border: 1px solid #333;
 }
   .shadowbox {
     width: 40%;
