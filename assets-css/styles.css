@@ -65,8 +65,8 @@ a[alt="lien vers prestation"] {
 /* Nouvelles règles si la fenêtre fait au plus 1024px de large */
 @media screen and (max-width: 1024px) {
   p {
-    color: red;
-    background-color: black;
+    /* color: red;
+    background-color: black; */
     font-size: 1.2em;
     padding: 0 0 0 0;
   }
@@ -79,7 +79,10 @@ a[alt="lien vers prestation"] {
     max-width: 100%;
   }
   .shadowbox {
-     width: 100%;
+    width: 100%;
+    border: 0 solid #333;
+    box-shadow: 0 0 0 #444;
+   
     text-align: center;
   }
   .inversimg {
