@@ -1,72 +1,51 @@
 <!DOCTYPE html>
 <html lang="efr">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <link rel="stylesheet" href="../assets/css/styles.css" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-
-<body>
+  </head>
+  <body>
     <div id="container">
+      <--Header-->
+      <header>
+        <nav></nav>
+      </header>
 
-        <--Header-->
-            <header>
-                <nav>
+     
 
-                </nav>
-            </header>
+      <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10808.805166975868!2d5.041873236037729!3d47.36898964949722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ed623046ceddff%3A0x2a9130e108cd40c0!2sValmy%2C%2021000%20Dijon!5e0!3m2!1sfr!2sfr!4v1641915605459!5m2!1sfr!2sfr"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        <h1 id="contactez">Nous contacter</h1>
 
-            <--Section-->
-                <section>
-                    <h1 id="contactez">Contactez-nous dès maintenant</h1>
-      <div>
-        <form action="#" method="get">
-          <p> <label>Nom</label>
-            <input type="text" name="nom" />
+        <div>
+          <form class="form" action="#" method="get">
+            <input type="text" placeholder="Nom">
+            <input type="text" placeholder="Prénom">
+            <input type="email" placeholder="mail@exemple.com">
+            <input type="tel" placeholder="numéro de téléphone">
+            <textarea id="story" placeholder="Description de la demande"></textarea> 
+            <input id="valid" type="submit" value="Envoyer le message" />
             
-            <label>Prénom</label>
-            <input type="text" name="prenom" /> </p>
+          </form>
           
-          <label>Email</label>
-          <input type="email" name="mel" />
+        </div>
+        <div>
           
-          <label>Téléphone </label>
-          <input type="tel" name="tel" />
-          
-          <label>Description de la demande</label>
-          <textarea id="story" name="story" rows="5" cols="33"> </textarea>
          
-          <input type="submit" />
-        </form>
-      </div>
-      <span><a href="tel:+337000000"><img class="tel-img" src="../assets/pngegg.png"></a></span>
-      <div>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10808.805166975868!2d5.041873236037729!3d47.36898964949722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ed623046ceddff%3A0x2a9130e108cd40c0!2sValmy%2C%2021000%20Dijon!5e0!3m2!1sfr!2sfr!4v1641915605459!5m2!1sfr!2sfr"
-          width="600"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-        ></iframe>
-      </div>
 
-
-
-    
-
-                </section>
-
-                <--Footer-->
-                    <footer>
-
-                    </footer>
-
+        </div>
+       
+      <--Footer-->
+      <footer></footer>
     </div>
-
-</body>
-
+  </body>
 </html>

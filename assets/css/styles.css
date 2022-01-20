@@ -1,3 +1,78 @@
- .tel-img {
-    width: 70px;
+
+.form {
+  background-color: rgb(241, 235, 235);
+  padding: 1%;
+  overflow: hidden;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+
+div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+div > iframe {
+
+
+  width: 100%;
+  
+
+}
+
+
+section > div {
+display: flex;
+justify-content: center;
+align-items: ;
+}
+
+form > input{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-bottom: 1%;
+  text-align: left;
+  width: 90%;
+  float: left;
+  font-size: 16px;
+  margin-left: 3%;
+  position: relative;
+  border: none; 
+  border:solid 1px #ccc;
+  border-radius: 4px;
+
+}
+#valid{
+
+  background-color: rgb(8, 209, 236);
+  width: 50%;
+  text-align: center;
+  display: block;
+    margin: 20 auto;
+
+}
+
+form > textarea{
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: left;
+  width: 90%;
+  float: left;
+  font-size: 16px;
+  margin-left: 3%;
+  position: relative;
+  resize: vertical;
+  border-radius: 10%;
+  border: none; 
+  border:solid 1px #ccc;
+  border-radius: 4px;
+  margin-bottom: 1%;
+
 }
