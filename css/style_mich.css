@@ -1,6 +1,6 @@
 
 
-#gototop {
+.back-to-top {
   position: fixed;
   bottom: 30px;
   right: -40px;
@@ -46,8 +46,6 @@ p {
   color: blue;
 }
 
-
-
 .shadowbox {
   width: 40%;
   border: 1px solid #333;
@@ -91,26 +89,3 @@ a[alt="lien vers prestation"] {
 /* Fin Nouvelles règles si la fenêtre fait au plus 1024px de large */
 
 /* Style du footer */
-footer .container {
-  border: solid black;
-  text-align: center;
-  width: 100%;
-  margin: 1em 0em;
-  padding: 1em;
-  display: flex;
-  vertical-align: middle;
-}
-footer,
-div {
-  display: inline-block;
-  margin: 0.7em;
-}
-footer div > a,
-footer div > span {
-  display: block;
-  padding: 0em 8em;
-}
-footer div span {
-  margin-bottom: 1em;
-  text-align: center;
-}
