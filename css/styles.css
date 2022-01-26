@@ -43,7 +43,18 @@ header .nav a {
   body {
     background-color: yellow;
   }
-}
+  .divPanel {
+    
+      width: 80%;
+  
+  }
+  .divPanel:hover:after {
+    display: none;
+  
+  }
+  
+  }
+
 
 @media (min-width: 768px) and (max-width: 992px) {
   body {
@@ -51,26 +62,63 @@ header .nav a {
   }
   header {
   }
+  .divPanel {
+    
+    width: 80%;
+
+}
+.divPanel:hover:after {
+  display: none;
+
+}
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   body {
     background-color: blue;
   }
+
   header label menu-burger {
     display: none;
   }
+  .divPanel {
+    
+    width: 80%;
+
+}
+.divPanel:hover:after {
+  display: none;
+
+}
+  
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
   body {
     background-color: purple;
   }
+  .divPanel {
+    
+    width: 40%;
+
+}
+.divPanel:hover:after {
+  display: none;
+
+}
 }
 
 @media (min-width: 1400px) {
   body {
   }
+  .divPanel {
+    
+    width: 30%;
+
+}
+.continuer{
+  display: none;
+}
 }
 
 /*CSS Contact*/
@@ -174,20 +222,28 @@ header .nav a {
   font-weight: bold;
   font-size: 30px;
 }
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: center;
+  
+}
 .divPanel {
   background-color: #ffffff;
   padding: 20px;
+  padding-bottom: 25%;
   border-radius: 25px;
+  position: relative;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   text-align: center;
   color: rgb(0, 0, 0);
-  height: 800px;
-  width: 25%;
   text-decoration: none;
   box-shadow: 0px 0px 10px black;
+  height: 500px;
 }
 .divPanel:hover {
   content: "";
@@ -200,18 +256,30 @@ header .nav a {
   content: "start now";
   text-align: center;
   position: fixed;
+  top: 90%;
   border-radius: 30px;
   width: 15%;
   height: 5%;
   background: rgba(0, 0, 0, 0.4);
-  margin: 15em 1em;
+  align-content: flex-end;
   font-weight: bold;
   line-height: 50px;
   font-size: 30px;
 }
 
 .divIcone {
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 20%;
   text-align: center;
+}
+.continuer {
+
+  border: rgb(0, 0, 0);
+  background-color: royalblue;
+  border-radius: 25px;
+  width: 30%;
+  position: fixed;
+  top: 80%;
+
+
 }
