@@ -109,6 +109,7 @@ header .nav a {
 }
 
 @media (min-width: 1400px) {
+<<<<<<< HEAD
   body {
   }
   .divPanel {
@@ -283,3 +284,276 @@ header .nav a {
 
 
 }
+=======
+    body{
+        
+    }
+}
+
+/* FOOTER */
+
+.container {
+  display: flex;
+  height: 20rem;
+  background-color: #001052;
+  align-items: center;
+}
+
+.container__item {
+  flex-basis: 25%;
+  background-color: #001052;
+  overflow: hidden;
+  color: #ffffff;
+  text-align: center;
+  font-size: 2.4rem;
+  height: 14rem;
+}
+
+.container__item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.container__item__heading {
+  font-weight: normal;
+  font-size: 2.4rem;
+}
+
+.item-partenaires__img {
+  max-height: 6.6rem;
+  margin: 4.2rem 0.5rem 0 0.5rem;
+}
+
+.container__item__alignLeft {
+  text-align: left;
+  display: inline-block;
+  margin: auto;
+}
+
+.item-mentions ul {
+  margin: 7rem 0 0 0;
+  padding-left: 0;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  list-style: none;
+}
+
+.item-mentions p {
+  display: inline-block;
+  margin: 0;
+}
+
+.item-mentions__img {
+  margin-left: 1rem;
+  width: 3.8rem;
+  height: 3.8rem;
+}
+
+.item-nousContacter ul {
+  margin: 5.5rem 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.item-nousContacter__img {
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.item-logoF__img {
+  height: 13.9rem;
+}
+
+.container__item__heading {
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* RESPONSIVE*/
+
+.item-logoF-responsive__img {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+
+ /* FOOTER */
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container__item {
+    flex-basis: 100%;
+    height: auto;
+    padding: 2rem 0;
+    border-bottom: 0.1rem solid #ffffff;
+  }
+
+  .item-logoF-responsive__img {
+    display: inline;
+    height: 10rem;
+  }
+
+  .item-logoF__img {
+    display: none;
+  }
+
+  .item-partenaires {
+    display: none;
+  }
+
+  .item-mentions ul {
+    margin: 0;
+    text-align: center;
+  }
+
+  .item-mentions .container__item__heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .item-mentions__img {
+    margin: 0 0.5rem;
+  }
+
+  .item-mentions {
+    order: 1;
+  }
+
+  .item-mentions .container__item__heading {
+    display: none;
+  }
+
+  .item-mentions p {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .item-nousContacter ul {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+
+  /* FOOTER */
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container__item {
+    flex-basis: 100%;
+    height: auto;
+    padding: 2rem 0;
+    border-bottom: 0.1rem solid #ffffff;
+  }
+
+  .item-logoF-responsive__img {
+    display: inline;
+    height: 10rem;
+  }
+
+  .item-logoF__img {
+    display: none;
+  }
+
+  .item-partenaires {
+    display: none;
+  }
+
+  .item-mentions ul {
+    margin: 0;
+    text-align: center;
+  }
+
+  .item-mentions .container__item__heading {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .item-mentions__img {
+    margin: 0 0.5rem;
+  }
+
+  .item-mentions {
+    order: 1;
+  }
+
+  .item-mentions .container__item__heading {
+    display: none;
+  }
+
+  .item-mentions p {
+    display: block;
+    margin-bottom: 2rem;
+  }
+
+  .item-nousContacter ul {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: red;
+  }
+
+  /* FOOTER */
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container__item {
+    flex-basis: 50%;
+    padding: 2rem 0;
+  }
+
+  .container__item__heading {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  body {
+    background-color: blue;
+  }
+  header label menu-burger {
+    display: none;
+  }
+
+  /* FOOTER */
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container__item {
+    flex-basis: 50%;
+    padding: 2rem 0;
+  }
+
+  .container__item__heading {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  body {
+    background-color: purple;
+  }
+
+  /* FOOTER */
+}
+
+@media (min-width: 1401px) {
+  body {
+  }
+
+  /* FOOTER */
+}
+>>>>>>> projets
