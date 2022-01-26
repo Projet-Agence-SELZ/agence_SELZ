@@ -33,6 +33,9 @@ p {
 h2 {
   color: green;
 }
+.h2_centre {
+  text-align: center;
+}
 
 .img_texte {
   display: flex;
