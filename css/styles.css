@@ -75,7 +75,7 @@ header .nav a {
 
 /*CSS Contact*/
 
-.form {
+.divForm {
   background-color: rgb(241, 235, 235);
   padding: 1%;
   overflow: hidden;
@@ -86,14 +86,14 @@ header .nav a {
   flex-direction: column;
 }
 
-.formulaire {
+.divFormulaire {
   background-color: rgb(241, 235, 235);
   display: flex;
   align-items: center;
   flex-direction: column;
   width: 50%;
 }
-.carte {
+.divCarte {
   width: 50%;
 }
 .inputForm {
@@ -118,7 +118,7 @@ header .nav a {
   display: block;
   margin: 20 auto;
 }
-.story {
+.divComment {
   padding-top: 1%;
   padding-bottom: 1%;
   text-align: left;
@@ -141,26 +141,26 @@ header .nav a {
   flex-direction: row;
   width: 100%;
 }
-.lienAdresse {
+.DivLienAdresse {
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
-.btnSocial {
+.divBtnSocial {
   width: 50px;
   height: 50px;
   color: blue;
 }
-.logo {
+.divLogo {
   width: 20px;
   height: 20px;
   color: blue;
 }
-.coordonees {
+.divCoordonees {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.socialMedia {
+.divSocialMedia {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -169,12 +169,12 @@ header .nav a {
   display: flex;
   justify-content: space-around;
 }
-.titre {
+.divTitre {
   color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 30px;
 }
-.panel {
+.divPanel {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 25px;
@@ -189,14 +189,14 @@ header .nav a {
   text-decoration: none;
   box-shadow: 0px 0px 10px black;
 }
-.panel:hover {
+.divPanel:hover {
   content: "";
 
   background-color: rgb(3, 202, 3);
   color: seashell;
 }
 
-.panel:hover:after {
+.divPanel:hover:after {
   content: "start now";
   text-align: center;
   position: fixed;
@@ -210,7 +210,7 @@ header .nav a {
   font-size: 30px;
 }
 
-.icone {
+.divIcone {
   width: 200px;
   height: 200px;
   text-align: center;
