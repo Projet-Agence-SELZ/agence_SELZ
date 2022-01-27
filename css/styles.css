@@ -10,8 +10,8 @@ html {
     display: none;
 }
 
-/* Style du main -------------------------------------------------------------------- */
-#projets .back-to-top {
+/* Style du main générique à tout le site -------------------------------------------------------------------- */
+.back-to-top {
   position: fixed;
   bottom: 30px;
   right: -40px;
@@ -25,53 +25,68 @@ html {
   font-family: "LiberationSerifBold";
   src: url("/assets-css/Font/LiberationSerif-Bold.ttf");
 }
-#projets h1 {
-  word-spacing: 0.5em;
-}
 
-#projets p {
-  font-family: LiberationSerifRegular;
-  color: #001052;
-  font-size: 1.5em;
-}
+/* Style du main spécif par page -------------------------------------------------------------------- */
 
-#projets .SELZ {
-  letter-spacing: 0.5em;
-}
-
-#projet h2 {
-  color: green;
-}
 #projets .h2_centre {
   text-align: center;
+   color: green;
 }
 
-#projets .img_texte {
+.img_texte {
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 10px 0 60px 0;
 }
 
-/* Paragraphes en bleu par défaut */
-#projets p {
-  color: blue;
-}
+/* shadowbox Box contenant le texte centré à côté d'une image -------------------------------------------------------------------- */
 
-#projets .shadowbox {
+.img_texte .shadowbox {
   width: 40%;
   border: 1px solid #333;
   box-shadow: 8px 8px 8px #444;
   padding: 20px 20px;
   text-align: justify;
+  color: #001052;
+  font-size: 1.8em;
+  
+}
+.img_texte .shadowbox .h2_centre {
+  text-align: center;
+   color: green;
 }
 
-#projets a[alt="lien vers prestation"] {
+
+.img_texte .shadowbox  a[alt="lien vers prestation"] {
   display: flex;
   justify-content: end;
   color: green;
 }
-
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px) {
+  .img_texte .shadowbox  p {
+    font-size: 1.2em;
+    padding: 0 0 0 0;
+  }
+  .img_texte {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 0;
+  }
+  .img_texte .reduc_img60 {
+    max-width: 100%;
+  }
+  .img_texte .shadowbox {
+    width: 100%;
+    border: 0 solid #333;
+    box-shadow: 0 0 0 #444;
+    text-align: center;
+  }
+  .inversimg {
+    flex-direction: column-reverse;  }
+}
+/* Fin Nouvelles règles si la fenêtre fait au plus 1024px de large */
 /* /MAIN ---------------------------------------------------------------------------- */
 
 .item-logoF-responsive__img {
