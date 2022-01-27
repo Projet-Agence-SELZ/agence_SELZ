@@ -442,8 +442,8 @@ header .nav-item:before {
 
   .item-nousContacter ul {
     margin-top: 0;
-/* /FOOTER -------------------------------------------------------------------------- */
   }
+  /* /FOOTER -------------------------------------------------------------------------- */
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -694,7 +694,7 @@ header .nav-item:before {
   footer .item-nousContacter ul {
   margin-top: 2rem;
   }
-/* FOOTER ------------------------------------------------------------- */
+/* /FOOTER ------------------------------------------------------------- */
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
