@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="../css/styles.css">
-  <script src="../assets/index.js"></script>
+  <!-- <script src="../assets/script.js"></script> -->
   <title>Page d'accueil</title>
 </head>
 
@@ -34,11 +34,27 @@
 
   <main>
     <h1>Agence <span class="SELZ">SELZ</span></h1>
+<div class="back-to-top" >
 
-    <div class="back-to-top">
-      <a href="#top"><img src="../assets/img/back-to-top.png" /></a>
-    </div>
+      <a href="#top"><img class="inactive" id="to_Top" src="../assets/img/back-to-top.png" /></a>
 
+    <script>
+let mybutton = document.getElementById("to_Top");
+console.log(mybutton);
+console.log(mybutton.className);
+window.onscroll = function () {
+  
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+     console.log("top2");
+   mybutton.className ="active"
+  } else {
+    mybutton.className ="inactive"
+  }
+}
+
+</script>
+
+</div>
     <section>
       <div class="img_texte">
         <img class="reduc_img60" src="../assets/img/eco-conception.jpg" alt="Ordinateur sur Bureau"
