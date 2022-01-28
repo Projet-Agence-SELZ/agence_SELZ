@@ -52,8 +52,22 @@ header .nav a {
     display: none;
   
   }
+  .divFormulaire {
+    width: 100%;
+  }
+  .divCarte {
+    width: 100%;
+  }
+  .DivLienAdresse {
+    width: 100%;
+  }
+  .divCoordonees {
+    width:
+  }
   
   }
+  
+  
 
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -70,6 +84,15 @@ header .nav a {
 .divPanel:hover:after {
   display: none;
 
+}
+.divFormulaire {
+  width: 100%;
+}
+.divCarte {
+  width: 100%;
+}
+.DivLienAdresse {
+  width: 100%;
 }
 }
 
@@ -90,7 +113,19 @@ header .nav a {
   display: none;
 
 }
-  
+.divFormulaire {
+  width: 100%;
+}
+.divCarte {
+  width: 100%;
+}
+.DivLienAdresse {
+  width: 50%;
+}
+.divCoordonees {
+  justify-content: flex-start;
+}
+
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
@@ -106,6 +141,19 @@ header .nav a {
   display: none;
 
 }
+.divFormulaire {
+  width: 50%;
+}
+.divCarte {
+  width: 50%;
+  height: 100%;
+}
+.DivLienAdresse {
+  width: 30%;
+}
+.divCoordonees {
+  justify-content: space-around;
+}
 }
 
 @media (min-width: 1400px) {
@@ -119,9 +167,32 @@ header .nav a {
 .continuer{
   display: none;
 }
+.divFormulaire {
+  width: 50%;
+}
+.divCarte {
+  width: 50%;
+  height: 100%;
+}
+.DivLienAdresse {
+  width: 30%;
+}
+.divCoordonees {
+  justify-content: space-around;
+}
 }
 
 /*CSS Contact*/
+.pageContact {
+ 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  align-content: center;
+  height: 700px;
+  
+}
 
 .divForm {
   background-color: rgb(241, 235, 235);
@@ -132,18 +203,37 @@ header .nav a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  height: 70%;
 }
 
 .divFormulaire {
   background-color: rgb(241, 235, 235);
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
+flex-direction: column;
+ align-items: center;
+ justify-content: space-evenly;
+ height: 100%;
 }
-.divCarte {
-  width: 50%;
+
+.divCoordonees {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  height: 10%;
+  
 }
+.divSocialMedia {
+  display: flex;
+  justify-content:space-between;
+  width: 20%;
+  height: 8%;
+}
+#divContact{
+  font-weight: bolder;
+  font-size: larger;
+  height: 8%;
+}
+
 .inputForm {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -151,12 +241,12 @@ header .nav a {
   text-align: left;
   width: 90%;
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 3%;
   position: relative;
-  border: none;
   border: solid 1px #ccc;
   border-radius: 4px;
+  height: auto;
 }
 
 #valid {
@@ -165,6 +255,8 @@ header .nav a {
   text-align: center;
   display: block;
   margin: 20 auto;
+  height: 10%;
+  font-size: 20px;
 }
 .divComment {
   padding-top: 1%;
@@ -172,46 +264,30 @@ header .nav a {
   text-align: left;
   width: 90%;
   float: left;
-  font-size: 16px;
+  font-size: 20px;
   margin-left: 3%;
   position: relative;
   resize: vertical;
-  border-radius: 10%;
-  border: none;
   border: solid 1px #ccc;
   border-radius: 4px;
   margin-bottom: 1%;
+  height: 50%;
 }
-.pageContact {
-  background-color: rgb(241, 235, 235);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  width: 100%;
-}
+
 .DivLienAdresse {
+  
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
 .divBtnSocial {
-  width: 50px;
-  height: 50px;
+  width: 40;
+  height: 40px;
   color: blue;
 }
 .divLogo {
   width: 20px;
   height: 20px;
   color: blue;
-}
-.divCoordonees {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.divSocialMedia {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }
 .services {
   display: flex;
