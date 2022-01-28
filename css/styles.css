@@ -14,8 +14,8 @@ html {
 .back-to-top {
   position: fixed;
   bottom: 30px;
-  right: -25px;
-  max-width: 10%;
+  right: -1px;
+  max-width: 5%;
   opacity: 0.5;
 }
 .back-to-top .inactive {
@@ -71,35 +71,6 @@ html {
   justify-content: end;
   color: green;
 }
-/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
-@media screen and (max-width: 1024px) {
-.back-to-top {
-  right: -1px;
-}
-
-  .img_texte .shadowbox  p {
-    font-size: 1.2em;
-    padding: 0 0 0 0;
-  }
-  .img_texte {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 0 0 0;
-    max-width: 100%
-  }
-  .img_texte .reduc_img60 {
-    max-width: 100%;
-  }
-  .img_texte .shadowbox {
-    width: 100%;
-    border: 0 solid #333;
-    box-shadow: 0 0 0 #444;
-    text-align: center;
-  }
-  .inversimg {
-    flex-direction: column-reverse;  }
-}
-/* Fin Nouvelles règles si la fenêtre fait au plus 1024px de large */
 /* /MAIN ---------------------------------------------------------------------------- */
 
 .item-logoF-responsive__img {
@@ -415,7 +386,34 @@ header .nav-item:before {
     transition: 0.5s;
 }
 /* /HEADER -------------------------------------------------------------------------- */
+/* MAIN ------------------------------------------------------------------------------*/
+  .back-to-top {
+  right: -1px;
+}
 
+  .img_texte .shadowbox  p {
+    font-size: 1.2em;
+    padding: 0 0 0 0;
+  }
+  .img_texte {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 0;
+    max-width: 100%
+  }
+  .img_texte .reduc_img60 {
+    max-width: 100%;
+  }
+  .img_texte .shadowbox {
+    width: 100%;
+    border: 0 solid #333;
+    box-shadow: 0 0 0 #444;
+    text-align: center;
+  }
+  .inversimg {
+    flex-direction: column-reverse;  }
+
+/* /MAIN -----------------------------------------------------------------------------*/
 /* FOOTER --------------------------------------------------------------------------- */
   .container {
     flex-wrap: wrap;
@@ -694,6 +692,34 @@ header .nav-item:before {
     transition: 0.5s;
   }
 /* /HEADER -------------------------------------------------------------------------- */
+/* MAIN ------------------------------------------------------------------------------*/
+  .back-to-top {
+  right: -1px;
+}
+
+  .img_texte .shadowbox  p {
+    font-size: 1.2em;
+    padding: 0 0 0 0;
+  }
+  .img_texte {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 0;
+    max-width: 100%
+  }
+  .img_texte .reduc_img60 {
+    max-width: 100%;
+  }
+  .img_texte .shadowbox {
+    width: 100%;
+    border: 0 solid #333;
+    box-shadow: 0 0 0 #444;
+    text-align: center;
+  }
+  .inversimg {
+    flex-direction: column-reverse;  }
+
+/* /MAIN -----------------------------------------------------------------------------*/
 
 /* FOOTER --------------------------------------------------------------------------- */
   footer .container {
@@ -769,7 +795,34 @@ header .nav-item:before {
     text-decoration: none;
   }
 /* /HEADER -------------------------------------------------------------------------- */
-  
+/* MAIN ------------------------------------------------------------------------------*/
+  .back-to-top {
+  right: -1px;
+}
+
+  .img_texte .shadowbox  p {
+    font-size: 1.2em;
+    padding: 0 0 0 0;
+  }
+  .img_texte {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 0 0;
+    max-width: 100%
+  }
+  .img_texte .reduc_img60 {
+    max-width: 100%;
+  }
+  .img_texte .shadowbox {
+    width: 100%;
+    border: 0 solid #333;
+    box-shadow: 0 0 0 #444;
+    text-align: center;
+  }
+  .inversimg {
+    flex-direction: column-reverse;  }
+/* /MAIN -----------------------------------------------------------------------------*/
+
 /* FOOTER --------------------------------------------------------------------------- */
   footer .container {
     flex-wrap: wrap;
@@ -898,6 +951,7 @@ header .nav a {
     text-decoration: none;
   }
 /* /HEADER -------------------------------------------------------------------------- */
+
 /* FOOTER --------------------------------------------------------------------------- */
 
   footer .item-logoF .container__item__heading {
