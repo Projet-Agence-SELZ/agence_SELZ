@@ -17,9 +17,15 @@ html {
 .back-to-top {
   position: fixed;
   bottom: 30px;
-  right: -40px;
+  right: -25px;
   max-width: 10%;
   opacity: 0.5;
+}
+.back-to-top .inactive {
+   display: none;
+}
+.back-to-top .active {
+   display: block;
 }
 
 @font-face {
@@ -29,15 +35,6 @@ html {
   font-family: "LiberationSerifBold";
   src: url("/assets-css/Font/LiberationSerif-Bold.ttf");
 }
-
-
-/* Style du main spécif par page -------------------------------------------------------------------- */
-
-#projets .h2_centre {
-  text-align: center;
-   color: green;
-}
-
 .img_texte {
   display: flex;
   justify-content: space-around;
@@ -62,7 +59,6 @@ html {
    color: green;
 }
 
-
 .img_texte .shadowbox  a[alt="lien vers prestation"] {
   display: flex;
   justify-content: end;
@@ -73,6 +69,15 @@ html {
   height: auto;
   margin:0 2rem
 }
+
+/* Style du main spécif par page -------------------------------------------------------------------- */
+
+#projets .h2_centre {
+  text-align: center;
+   color: green;
+}
+
+
 #team{
   text-align: center;
   font-size: 270%;
@@ -396,7 +401,9 @@ html {
   }
   /* /HEADER -------------------------------------------------------------------------- */
   /* MAIN ---------------------------------------------------------------------------- */
-
+  .back-to-top {
+  right: -1px;
+  }
   .img_texte .shadowbox  p {
     font-size: 1.2em;
     padding: 0 0 0 0;
@@ -405,10 +412,7 @@ html {
     flex-direction: column;
     align-items: center;
     padding: 0 0 0 0;
-  }
-  .img_texte .reduc_img60 {
-    width: 70%;
-    height: auto;
+    max-width: 100%
   }
   .img_texte .shadowbox {
     width: 100%;
