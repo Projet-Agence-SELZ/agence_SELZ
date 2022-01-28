@@ -68,6 +68,16 @@ html {
   justify-content: end;
   color: green;
 }
+.img_texte .reduc_img60 {
+  max-width: 60%;
+  height: auto;
+  margin:0 2rem
+}
+#team{
+  text-align: center;
+  font-size: 270%;
+  margin-bottom: 5%;
+}
 
 /* /MAIN ---------------------------------------------------------------------------- */
 
@@ -397,7 +407,8 @@ html {
     padding: 0 0 0 0;
   }
   .img_texte .reduc_img60 {
-    max-width: 100%;
+    width: 70%;
+    height: auto;
   }
   .img_texte .shadowbox {
     width: 100%;
@@ -407,7 +418,17 @@ html {
   }
   .inversimg {
     flex-direction: column-reverse;  }
-
+    
+  #team-list{
+    column-count: 1;
+  }
+  .items-team-list{
+    text-align: center;
+    font-size: 220%;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 1rem;
+  }
   /* /MAIN ---------------------------------------------------------------------------- */
   /* FOOTER --------------------------------------------------------------------------- */
   .footer__container {
@@ -710,7 +731,17 @@ html {
   }
   .inversimg {
     flex-direction: column-reverse;  }
-
+    
+  #team-list{
+    column-count: 1;
+  }
+  .items-team-list{
+    text-align: center;
+    font-size: 220%;
+    border-style: solid;
+    border-radius: 15px;
+    margin: 1rem;
+  }
   /* /MAIN ---------------------------------------------------------------------------- */
 
   /* FOOTER --------------------------------------------------------------------------- */
@@ -778,7 +809,7 @@ html {
     height: auto;
     margin: 1em 1em;
     padding: 0em 1em;
-    font-size: 2em;
+    font-size: 320%;
     font-weight: bold;
   }
 
@@ -787,7 +818,20 @@ html {
     text-decoration: none;
   }
   /* /HEADER -------------------------------------------------------------------------- */
-
+  /* MAIN --------------------------------------------------------------------------- */
+  #team-list{
+    column-count: 2;
+  }
+  .items-team-list{
+    text-align: center;
+    font-size: 220%;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  /*MAIN -------------------------------------------------------------------------- */
   /* FOOTER --------------------------------------------------------------------------- */
   .footer__container {
     flex-wrap: wrap;
@@ -854,7 +898,7 @@ html {
     height: auto;
     margin: 1em 1em;
     padding: 0em 1em;
-    font-size: 2em;
+    font-size: 320%;
     font-weight: bold;
   }
 
@@ -863,6 +907,20 @@ html {
     text-decoration: none;
   }
   /* /HEADER -------------------------------------------------------------------------- */
+  /* MAIN --------------------------------------------------------------------------- */
+  #team-list{
+    column-count: 2;
+  }
+  .items-team-list{
+    text-align: center;
+    font-size: 220%;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  /*MAIN -------------------------------------------------------------------------- */
 
   /* /FOOTER -------------------------------------------------------------------------- */
   .item-logoF .footer__container__item__heading {
@@ -906,7 +964,7 @@ html {
     height: auto;
     margin: 1em 1em;
     padding: 0em 1em;
-    font-size: 2em;
+    font-size: 320%;
     font-weight: bold;
   }
 
@@ -915,6 +973,22 @@ html {
     text-decoration: none;
   }
   /* /HEADER -------------------------------------------------------------------------- */
+  
+  /* MAIN --------------------------------------------------------------------------- */
+  #team-list{
+    column-count: 2;
+  }
+  .items-team-list{
+    text-align: center;
+    font-size: 220%;
+    border-style: solid;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  /*MAIN -------------------------------------------------------------------------- */
+  
   /* FOOTER --------------------------------------------------------------------------- */
 
   .item-logoF .footer__container__item__heading {
