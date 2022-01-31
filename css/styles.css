@@ -171,18 +171,18 @@ html {
 
 /*CSS Contact*/
 .pageContact {
- 
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  align-content: center;
-  height: 700px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 1%;
+    background-color: rgb(241, 235, 235);;
+    
+  
   
 }
 
 .divForm {
-  background-color: rgb(241, 235, 235);
   padding: 1%;
   overflow: hidden;
   width: 100%;
@@ -207,7 +207,7 @@ flex-direction: column;
   flex-wrap: wrap;
   width: 90%;
   height: 10%;
-  
+  font-size: 2rem;
 }
 .divSocialMedia {
   display: flex;
@@ -219,6 +219,7 @@ flex-direction: column;
   font-weight: bolder;
   font-size: larger;
   height: 8%;
+  font-size: 3rem;
 }
 
 .inputForm {
@@ -293,13 +294,7 @@ flex-direction: column;
   position: relative;
   top: 2rem;
 }
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-around;
-  align-items: center;
-  
-}
+
 .divPanel {
   background-color: #ffffff;
   padding: 1rem;
@@ -320,6 +315,7 @@ flex-direction: column;
   
   
 }
+
 
 .buttonDiv{
   position: relative;
@@ -1108,7 +1104,7 @@ flex-direction: column;
 }
 .divCarte {
   width: 50%;
-  height: 100%;
+
 }
 .DivLienAdresse {
   width: 30%;
@@ -1195,7 +1191,6 @@ width: 50%;
 }
 .divCarte {
 width: 50%;
-height: 100%;
 }
 .DivLienAdresse {
 width: 30%;
@@ -1303,7 +1298,8 @@ justify-content: space-around;
 }
 .divCarte {
   width: 50%;
-  height: 100%;
+  
+  
 }
 .DivLienAdresse {
   width: 30%;
