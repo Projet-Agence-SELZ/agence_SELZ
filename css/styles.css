@@ -17,7 +17,7 @@ html {
 .back-to-top {
   position: fixed;
   bottom: 30px;
-  right: -25px;
+  right: 0px;
   max-width: 10%;
   opacity: 0.5;
 }
@@ -80,6 +80,7 @@ html {
 
 #team{
   text-align: center;
+   color: green;
   font-size: 270%;
   margin-bottom: 5%;
 }
@@ -352,7 +353,7 @@ flex-direction: column;
 /* Des backgrounds ont été rajouté afin de bien différencier les différents points de ruptures lors de la réalisation des modes responsives.*/
 @media (max-width: 768px) {
   body {
-    background-color: yellow;
+    /* background-color: yellow; */
   }
   /* HEADER --------------------------------------------------------------------------- */
   header {
@@ -583,7 +584,8 @@ flex-direction: column;
   /* /HEADER -------------------------------------------------------------------------- */
   /* MAIN ---------------------------------------------------------------------------- */
   .back-to-top {
-  right: -1px;
+  right: 60px;
+  height: 20%;
   }
   .img_texte .shadowbox  p {
     font-size: 1.2em;
@@ -697,7 +699,7 @@ flex-direction: column;
 
 @media (min-width: 769px) and (max-width: 1024px) {
   body {
-    background-color: red;
+    /* background-color: red; */
   }
 
   /* HEADER --------------------------------------------------------------------------- */
@@ -917,7 +919,9 @@ flex-direction: column;
   /* /HEADER -------------------------------------------------------------------------- */
 
   /* MAIN ---------------------------------------------------------------------------- */
-
+ .back-to-top {
+  right: 0px;
+  }
   .img_texte .shadowbox  p {
     font-size: 1.2em;
     padding: 0 0 0 0;
@@ -1004,7 +1008,7 @@ flex-direction: column;
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   body {
-    background-color: blue;
+    /* background-color: blue; */
   }
   /* HEADER --------------------------------------------------------------------------- */
 
@@ -1117,7 +1121,7 @@ flex-direction: column;
 
 @media (min-width: 1201px) and (max-width: 1400px) {
   body {
-    background-color: purple;
+    /* background-color: purple; */
   }
 
   /* HEADER --------------------------------------------------------------------------- */
@@ -1207,7 +1211,7 @@ justify-content: space-around;
 
 @media (min-width: 1400px) {
   body {
-    background-color: pink;
+    /* background-color: pink; */
   }
 
   /* HEADER --------------------------------------------------------------------------- */
