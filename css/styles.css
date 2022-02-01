@@ -14,19 +14,24 @@ html {
 /* MAIN ---------------------------------------------------------------------------- */
 
 /* Style du main générique à tout le site -------------------------------------------------------------------- */
-.back-to-top {
-  position: fixed;
-  bottom: 30px;
-  right: 0px;
-  max-width: 10%;
-  opacity: 0.5;
+
+.back-to-top__inactive {
+  opacity: 0;
 }
-.back-to-top .inactive {
-   display: none;
+
+.back-to-top__active {
+ display: inline-block;
+ position: sticky; 
+ opacity: 0.5;
+ transition: opacity 500ms;
+  top: 88%;
+  left: 100%;
+  z-index: 1;
 }
-.back-to-top .active {
-   display: block;
-}
+
+
+
+
 
 @font-face {
   font-family: "LiberationSerifRegular";
@@ -52,14 +57,13 @@ html {
   text-align: justify;
   color: #001052;
   font-size: 1.8em;
-  
 }
 .img_texte .shadowbox .h2_centre {
   text-align: center;
-   color: green;
+  color: green;
 }
 
-.img_texte .shadowbox  a[alt="lien vers prestation"] {
+.img_texte .shadowbox a[alt="lien vers prestation"] {
   display: flex;
   justify-content: end;
   color: green;
@@ -67,18 +71,17 @@ html {
 .img_texte .reduc_img60 {
   max-width: 60%;
   height: auto;
-  margin:0 2rem
+  margin: 0 2rem;
 }
 
 /* Style du main spécif par page -------------------------------------------------------------------- */
 
 #projets .h2_centre {
   text-align: center;
-   color: green;
+  color: green;
 }
 
-
-#team{
+#team {
   text-align: center;
    color: green;
   font-size: 270%;
@@ -197,10 +200,10 @@ html {
 .divFormulaire {
   background-color: rgb(241, 235, 235);
   display: flex;
-flex-direction: column;
- align-items: center;
- justify-content: space-evenly;
- height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .divCoordonees {
@@ -212,11 +215,11 @@ flex-direction: column;
 }
 .divSocialMedia {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   width: 20%;
   height: 8%;
 }
-#divContact{
+#divContact {
   font-weight: bolder;
   font-size: larger;
   height: 8%;
@@ -264,7 +267,6 @@ flex-direction: column;
 }
 
 .DivLienAdresse {
-  
   text-decoration: none;
   color: rgb(0, 0, 0);
 }
@@ -336,7 +338,6 @@ flex-direction: column;
   text-align: center;
 }
 .continuer {
-
   border: rgb(0, 0, 0);
   background-color: royalblue;
   border-radius: 25px;
@@ -376,8 +377,6 @@ flex-direction: column;
   header a {
     text-decoration: none;
   }
-  
-  
 
   header .container {
     position: relative;
@@ -587,7 +586,7 @@ flex-direction: column;
   right: 60px;
   height: 20%;
   }
-  .img_texte .shadowbox  p {
+  .img_texte .shadowbox p {
     font-size: 1.2em;
     padding: 0 0 0 0;
   }
@@ -595,7 +594,7 @@ flex-direction: column;
     flex-direction: column;
     align-items: center;
     padding: 0 0 0 0;
-    max-width: 100%
+    max-width: 100%;
   }
   .img_texte .shadowbox {
     width: 100%;
@@ -604,12 +603,13 @@ flex-direction: column;
     text-align: center;
   }
   .inversimg {
-    flex-direction: column-reverse;  }
-    
-  #team-list{
+    flex-direction: column-reverse;
+  }
+
+  #team-list {
     column-count: 1;
   }
-  .items-team-list{
+  .items-team-list {
     text-align: center;
     font-size: 220%;
     border-style: solid;
@@ -941,12 +941,13 @@ flex-direction: column;
     text-align: center;
   }
   .inversimg {
-    flex-direction: column-reverse;  }
-    
-  #team-list{
+    flex-direction: column-reverse;
+  }
+
+  #team-list {
     column-count: 1;
   }
-  .items-team-list{
+  .items-team-list {
     text-align: center;
     font-size: 220%;
     border-style: solid;
@@ -1051,10 +1052,10 @@ flex-direction: column;
   }
   /* /HEADER -------------------------------------------------------------------------- */
   /* MAIN --------------------------------------------------------------------------- */
-  #team-list{
+  #team-list {
     column-count: 2;
   }
-  .items-team-list{
+  .items-team-list {
     text-align: center;
     font-size: 220%;
     border-style: solid;
@@ -1094,7 +1095,6 @@ flex-direction: column;
   /*page contact et prestations*/
 
   .divPanel {
-    
     width: 40%;
     height: 500px;
 
@@ -1165,10 +1165,10 @@ flex-direction: column;
   }
   /* /HEADER -------------------------------------------------------------------------- */
   /* MAIN --------------------------------------------------------------------------- */
-  #team-list{
+  #team-list {
     column-count: 2;
   }
-  .items-team-list{
+  .items-team-list {
     text-align: center;
     font-size: 220%;
     border-style: solid;
@@ -1254,12 +1254,12 @@ justify-content: space-around;
     text-decoration: none;
   }
   /* /HEADER -------------------------------------------------------------------------- */
-  
+
   /* MAIN --------------------------------------------------------------------------- */
-  #team-list{
+  #team-list {
     column-count: 2;
   }
-  .items-team-list{
+  .items-team-list {
     text-align: center;
     font-size: 220%;
     border-style: solid;
@@ -1269,7 +1269,7 @@ justify-content: space-around;
     margin-bottom: 5%;
   }
   /*MAIN -------------------------------------------------------------------------- */
-  
+
   /* FOOTER --------------------------------------------------------------------------- */
 
   .item-logoF .footer__container__item__heading {
