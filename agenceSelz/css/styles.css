@@ -134,7 +134,7 @@ html {
 }
 
 .item-mentions ul {
-  margin: 7rem 0 0 0;
+  margin: 3.5rem 0 0 0;
   padding-left: 0;
   height: 3.8rem;
   line-height: 3.8rem;
@@ -142,14 +142,12 @@ html {
 }
 
 .item-mentions p {
-  display: inline-block;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
 }
 
 .item-mentions__img {
-  margin-left: 1rem;
-  width: 3.8rem;
-  height: 3.8rem;
+  margin: 0 0.5rem;
+  height: 2.4rem;
 }
 
 .item-nousContacter ul {
@@ -605,6 +603,9 @@ html {
   .inversimg {
     flex-direction: column-reverse;
   }
+  .img_texte .shadowbox a[alt="lien vers prestation"] {
+    justify-content: center;
+  }
 
   #team-list {
     column-count: 1;
@@ -944,6 +945,10 @@ html {
     flex-direction: column-reverse;
   }
 
+  .img_texte .shadowbox a[alt="lien vers prestation"] {
+    justify-content: center;
+  }
+
   #team-list {
     column-count: 1;
   }
@@ -957,7 +962,7 @@ html {
   /* /MAIN ---------------------------------------------------------------------------- */
 
   /* FOOTER --------------------------------------------------------------------------- */
-  .footer__container {
+.footer__container {
     flex-wrap: wrap;
     height: auto;
   }
@@ -965,15 +970,14 @@ html {
   .footer__container__item {
     flex-basis: 50%;
     padding: 2rem 0;
-    height: auto;
-  }
-
-  .footer__container__item__heading {
-    text-align: center;
   }
 
   .item-logoF .footer__container__item__heading {
     display: none;
+  }
+
+  .footer__container__item__heading {
+    text-align: center;
   }
 
   .item-mentions ul {
@@ -981,13 +985,12 @@ html {
   }
 
   .item-nousContacter ul {
-    margin-top: 2rem;
+    margin-top: 3.6rem;
   }
-
   /*page contact et prestations*/
+
   .divPanel {
-    
-    width: 70%;
+    width: 40%;
     height: 500px;
 
 }
@@ -996,13 +999,17 @@ html {
 
 }
 .divFormulaire {
-  width: 100%;
+  width: 50%;
 }
 .divCarte {
-  width: 100%;
+  width: 50%;
+
 }
 .DivLienAdresse {
-  width: 100%;
+  width: 30%;
+}
+.divCoordonees {
+  justify-content: space-around;
 }
   /* /FOOTER ------------------------------------------------------------- */
 }
@@ -1074,7 +1081,6 @@ html {
   .footer__container__item {
     flex-basis: 50%;
     padding: 2rem 0;
-    height: auto;
   }
 
   .item-logoF .footer__container__item__heading {
@@ -1090,7 +1096,7 @@ html {
   }
 
   .item-nousContacter ul {
-    margin-top: 2rem;
+    margin-top: 3.6rem;
   }
   /*page contact et prestations*/
 
