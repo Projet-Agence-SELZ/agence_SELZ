@@ -30,9 +30,6 @@ html {
 }
 
 
-
-
-
 @font-face {
   font-family: "LiberationSerifRegular";
   src: url("/assets-css/Font/LiberationSerif-Regular.ttf");
@@ -83,12 +80,29 @@ html {
 
 #team {
   text-align: center;
-   color: green;
+  color: green;
   font-size: 270%;
   margin-bottom: 5%;
 }
+.mentions_legales {
+  max-width: 60%;
+  border: 1px solid #333;
+  box-shadow: 8px 8px 8px #444;
+  padding: 50px 50px ;
+  margin: 0 auto;
+  text-align: justify;
+  color: #001052;
+  font-size: 1.8em;
+  background-color: green;
+}
 
 /* /MAIN ---------------------------------------------------------------------------- */
+h1 {
+    padding-left: 80px;
+    padding-top: 0px;
+    color:   #001052;
+    font-size: 3em;
+}
 
 .item-logoF-responsive__img {
   display: none;
@@ -580,6 +594,9 @@ html {
   }
   /* /HEADER -------------------------------------------------------------------------- */
   /* MAIN ---------------------------------------------------------------------------- */
+  .h1_reponsive_none {
+      display: none;
+  }
   .back-to-top {
   right: 60px;
   height: 20%;
@@ -920,6 +937,9 @@ html {
   /* /HEADER -------------------------------------------------------------------------- */
 
   /* MAIN ---------------------------------------------------------------------------- */
+   .h1_reponsive_none {
+      display: none;
+  }
  .back-to-top {
   right: 0px;
   }
@@ -1184,7 +1204,7 @@ html {
     margin-bottom: 5%;
   }
   /*MAIN -------------------------------------------------------------------------- */
-/*page contact et prestations*/
+ /*page contact et prestations*/
 .divPanel {
     
   width: 40%;
